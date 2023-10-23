@@ -1,0 +1,11 @@
+
+###
+POST http://localhost:5000/api/selected-seats
+Content-Type: application/json
+
+{
+  "movieName": "Avenger",
+  "seatType": "Standard",
+  "selectedSeats": [10, 11, 12],
+  "totalAmount": 300
+}
